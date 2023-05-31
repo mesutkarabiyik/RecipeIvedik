@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Yemek"
+        tools:targetApi="31">
+        <activity
+            android:name=".Kavurma"
+            android:exported="false" />
+        <activity
+            android:name=".Sebze"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/Theme.Yemek.NoActionBar" />
+        <activity
+            android:name=".Fasulye"
+            android:exported="false" />
+        <activity
+            android:name=".Ispanak"
+            android:exported="false"
+            android:label="@string/title_activity_ispanak"
+            android:theme="@style/Theme.Yemek.NoActionBar" />
+        <activity
+            android:name=".Burger"
+            android:exported="false" />
+        <activity
+            android:name=".Pizza"
+            android:exported="false" />
+        <activity
+            android:name=".Makarna"
+            android:exported="false" />
+        <activity
+            android:name=".Menemen"
+            android:exported="false" />
+        <activity
+            android:name=".HomemadeRecipes"
+            android:exported="false" />
+        <activity
+            android:name=".DeliciousRecipes"
+            android:exported="false" />
+        <activity
+            android:name=".FastandFuriousRecipes"
+            android:exported="false" />
+        <activity
+            android:name=".nextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

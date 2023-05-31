@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Burger">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="406dp"
+        android:layout_height="585dp"
+        android:text="Easy Beef Burger  Ingredients:  1 pound ground beef Salt and pepper to taste 4 burger buns Optional toppings: lettuce, tomato slices, onion slices, pickles, cheese, ketchup, mustard, mayonnaise Instructions:  Season the ground beef with salt and pepper. Mix gently to combine. Divide the beef into 4 equal portions and shape them into patties. Preheat a grill or a stovetop griddle to medium-high heat. Cook the patties for about 4-5 minutes per side, or until cooked to your desired level of doneness. Add cheese during the last minute of cooking if desired, and allow it to melt. While the burgers are cooking, lightly toast the burger buns. Assemble the burgers by placing a patty on the bottom half of each bun. Add your desired toppings and condiments. Top with the remaining bun halves and serve. This simplified recipe cuts down on the details while still providing you with a tasty homemade burger. Feel free to customize it with your favorite toppings and condiments. Enjoy your burger!"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="28dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

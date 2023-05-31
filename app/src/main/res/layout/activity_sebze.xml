@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sebze">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="389dp"
+        android:layout_height="506dp"
+        android:text="Creamy Garlic Spinach  Ingredients:  1 tablespoon olive oil 3 cloves garlic, minced 8 cups fresh spinach leaves 1/2 cup heavy cream Salt and pepper to taste Grated Parmesan cheese (optional) Instructions:  Heat the olive oil in a large skillet over medium heat.  Add the minced garlic to the skillet and sauté for about 1 minute until fragrant.  Add the spinach leaves to the skillet, a few handfuls at a time, and cook until wilted, stirring occasionally. This should take about 2-3 minutes.  Pour in the heavy cream and stir to combine. Cook for an additional 2 minutes to allow the flavors to meld together.  Season with salt and pepper to taste. Be cautious with the salt, as Parmesan cheese (if added later) can also be salty.  If desired, sprinkle grated Parmesan cheese on top of the spinach and stir to incorporate.  Remove from heat and serve the creamy garlic spinach as a side dish or as a topping for grilled chicken, fish, or pasta.  Enjoy your creamy garlic spinach!"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="59dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomemadeRecipes">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="264dp"
+        android:layout_height="461dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fasulye"
+        tools:layout_editor_absoluteY="-81dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="276dp"
+        android:layout_height="299dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/kavurma"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <Button
+        android:id="@+id/fasulye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="seeFasulye"
+        android:text="Recipe"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <Button
+        android:id="@+id/kavurma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="seeKavurma"
+        android:text="Recipe"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        tools:layout_editor_absoluteY="379dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Makarna">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="325dp"
+        android:layout_height="526dp"
+        android:text="Basic Pasta Recipe
+
+Ingredients:
+
+8 ounces (about 225 grams) of your preferred pasta shape (e.g., spaghetti, penne, fusilli)
+Salt, to taste
+Water, for boiling
+Instructions:
+
+Fill a large pot with water and bring it to a boil over high heat. Add salt to the boiling water.
+
+Once the water reaches a rolling boil, add the pasta to the pot. Stir gently to prevent the pasta from sticking together.
+
+Cook the pasta according to the package instructions or until it reaches your desired level of tenderness. Cooking times may vary depending on the type and thickness of the pasta.
+
+While the pasta is cooking, prepare any desired sauce or toppings to serve with it.
+
+Once the pasta is cooked, carefully drain it in a colander to remove the water.
+
+Transfer the drained pasta back to the pot or a serving dish. Toss it with your preferred sauce or toppings.
+
+Serve the pasta immediately while it's still hot.
+
+Note: The cooking time and amount of salt needed may vary depending on the type of pasta and personal preference. It's always a good idea to follow the instructions on the pasta packaging for best results."
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

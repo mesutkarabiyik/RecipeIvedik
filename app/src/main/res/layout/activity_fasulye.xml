@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fasulye">
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="399dp"
+        android:layout_height="603dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textAlignment="inherit"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="323dp"
+        android:layout_height="423dp"
+        android:text="Turkish Fasulye (White Beans)  Ingredients:  2 cups dried white beans 2 tbsp olive oil 1 onion, finely chopped 2 cloves of garlic, minced 2 medium-sized tomatoes, diced 1 tbsp tomato paste 1 tsp paprika 1 tsp salt (adjust to taste) 1/2 tsp ground black pepper 4 cups water (or vegetable broth) Fresh parsley, chopped (for garnish) Instructions:  Soak the dried white beans overnight or use the quick-soak method.  Drain and rinse the soaked beans.  Heat olive oil in a pot and sauté onion and garlic until translucent.  Add tomatoes, tomato paste, paprika, salt, and black pepper. Cook for a few minutes until tomatoes soften.  Add the drained white beans and water (or vegetable broth) to the pot.  Bring to a boil, then reduce heat and simmer for about 1-2 hours until the beans are tender, stirring occasionally.  Adjust seasoning if needed.  Serve the fasulye hot, garnished with fresh parsley.  Enjoy your Turkish Fasulye (White Beans)!"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
