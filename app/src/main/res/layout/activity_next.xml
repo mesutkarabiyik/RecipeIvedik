@@ -147,6 +147,16 @@
         android:text="See All"
         android:textSize="10sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
-        tools:layout_editor_absoluteX="302dp" />
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="213dp"
+        android:layout_height="32dp"
+        android:text="What are we going to eat today?"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

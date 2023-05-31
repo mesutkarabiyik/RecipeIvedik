@@ -8,9 +8,10 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="348dp"
-        android:layout_height="355dp"
+        android:layout_width="406dp"
+        android:layout_height="553dp"
         android:text="Menemen  Ingredients:  2 tbsp olive oil 1 onion, finely chopped 2-3 bell peppers, diced 4 ripe tomatoes, diced 4-6 eggs Salt and pepper to taste Instructions:  Heat olive oil in a skillet over medium heat. Sauté onion until translucent, then add bell peppers and cook until softened. Add diced tomatoes and season with salt and pepper. Cook for 10-15 minutes until tomatoes break down. Make wells in the mixture and crack eggs into each well. Cover the skillet and cook until eggs reach desired doneness. Remove from heat and serve hot. Enjoy your Menemen!"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="201dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="325dp"
-        android:layout_height="526dp"
+        android:layout_width="407dp"
+        android:layout_height="551dp"
         android:text="Basic Pasta Recipe
 
 Ingredients:
@@ -34,6 +34,7 @@ Transfer the drained pasta back to the pot or a serving dish. Toss it with your 
 Serve the pasta immediately while it's still hot.
 
 Note: The cooking time and amount of salt needed may vary depending on the type of pasta and personal preference. It's always a good idea to follow the instructions on the pasta packaging for best results."
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

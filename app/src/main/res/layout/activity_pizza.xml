@@ -11,6 +11,7 @@
         android:layout_width="399dp"
         android:layout_height="292dp"
         android:text="Easy Homemade Pizza  Ingredients:  1 pizza dough (store-bought or homemade) 1/2 cup pizza sauce 2 cups shredded mozzarella cheese Your favorite pizza toppings Instructions:  Preheat your oven to 475°F (245°C).  Roll out the pizza dough into your desired shape and thickness.  Place the rolled-out dough on a baking sheet or pizza stone.  Spread the pizza sauce evenly over the dough, leaving a small border.  Sprinkle the shredded mozzarella cheese over the sauce.  Add your favorite pizza toppings.  Bake the pizza in the preheated oven for about 12-15 minutes or until the crust is golden brown and the cheese is bubbly.  Remove from the oven and let it cool for a few minutes before slicing and serving.  Enjoy your easy homemade pizza!"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

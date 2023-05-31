@@ -8,13 +8,11 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="0dp"
-        android:layout_height="310dp"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="114dp"
-        android:layout_marginEnd="39dp"
+        android:layout_width="381dp"
+        android:layout_height="458dp"
         android:text="Turkish Kavurma  Ingredients:  1 pound (450 grams) beef or lamb, cubed 2 tbsp vegetable oil or butter 1 onion, finely chopped 2 cloves of garlic, minced Salt and pepper to taste Optional: paprika, dried oregano Fresh parsley, chopped (for garnish) Instructions:  Heat oil or butter in a skillet over medium heat. Sauté onion and garlic until translucent. Add meat cubes and cook until browned on all sides. Season with salt, pepper, and optional paprika or dried oregano. Cover and simmer over low heat for 1-1.5 hours until meat is tender. Increase heat to medium, sauté for a few minutes to crisp the outside. Garnish with fresh parsley. Serve hot with rice, bread, or as desired. Enjoy your Turkish Kavurma!"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

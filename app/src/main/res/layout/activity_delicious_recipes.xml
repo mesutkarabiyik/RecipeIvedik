@@ -34,8 +34,12 @@
         android:layout_height="wrap_content"
         android:onClick="seePasta"
         android:text="Recipe"
-        tools:layout_editor_absoluteX="294dp"
-        tools:layout_editor_absoluteY="143dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638" />
 
     <Button
         android:id="@+id/menemen"
@@ -43,7 +47,9 @@
         android:layout_height="wrap_content"
         android:onClick="seeMenemen"
         android:text="Recipe"
-        tools:layout_editor_absoluteX="296dp"
-        tools:layout_editor_absoluteY="400dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

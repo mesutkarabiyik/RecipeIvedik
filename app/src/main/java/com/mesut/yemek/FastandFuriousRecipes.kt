@@ -4,14 +4,15 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.mesut.yemek.databinding.ActivityFastandFuriousRecipesBinding
 import com.mesut.yemek.databinding.ActivityNextBinding
 
-private lateinit var binding: ActivityNextBinding
+private lateinit var binding: ActivityFastandFuriousRecipesBinding
 
 class FastandFuriousRecipes : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityNextBinding.inflate(layoutInflater)
+        binding = ActivityFastandFuriousRecipesBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
     }
